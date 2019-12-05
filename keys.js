@@ -5,8 +5,10 @@ exports.spotify = {
     secret: process.env.SPOTIFY_SECRET
 };
 
-var omdbURL = "apikey=trilogy";
-
-exports.omdbURL = {
+exports.omdbURLkey = {
     key: "apikey=trilogy"
+};
+
+exports.bandsInTown = {
+    key: "codingbootcamp"
 };
